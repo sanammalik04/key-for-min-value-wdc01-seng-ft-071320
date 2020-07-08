@@ -6,6 +6,5 @@ def key_for_min_value(name_hash)
   returnValue = ""
   name_hash.each do |key, value|
     if value < minimum then 
-  puts "#{key}: #{value}"
   end
 end
