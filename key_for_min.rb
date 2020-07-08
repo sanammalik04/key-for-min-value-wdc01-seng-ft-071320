@@ -3,8 +3,9 @@
 
 def key_for_min_value(name_hash)
   minimum = Float::INFINITY
+  returnValue = ""
   name_hash.each do |key, value|
-    if value 
+    if value < minimum then 
   puts "#{key}: #{value}"
   end
 end
